@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+ padding: 0 20px;
+}
+
+body::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(.5);
+    z-index: -100;
+}
+.africalogo img {
+    width: 150px;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(149, 176, 176, 0.5);
+}
+.navibar-ul{
+    display: flex;
+    gap: 20px;  
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.navibar-ul li, a {
+    text-decoration: none;
+    list-style: none;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.navibar-ul a:hover {
+    color: rgb(28, 14, 132);
+}
+.titel{
+    background-color: rgba(59, 227, 227, 0.7);
+    border-radius: 50px;
+}
+.titel-and-slogan{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top:  50px;
+   color: #fff;
+   text-shadow: 1px 1px 2px black;
+   margin-top: 150px;
+}
+.titel-and-slogan-1{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    -webkit-text-stroke: .3px #000000;
+   
+    text-align: center;
+    padding-bottom: 50px;
+}
+.southAfrica_Text h4{
+    font-size: 35px;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.southAfrica_Text-and-pic{
+    background-color: rgba(26, 252, 252, 0.8);
+    border-radius: 10px;
+}
+.southAfrica_Text{
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 25px;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+.southAfrica_Text__paragraph-1{
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.southAfrica_picture{
+    display: flex;
+    justify-content: center;
+}
+.southAfrica_picture img{
+    padding-bottom: 30px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.Tanzania_Text h4{
+    font-size: 35px;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.Tanzania_Text-and-pic{
+    background-color: rgba(26, 252, 252, 0.8);
+    border-radius: 8px;
+    
+}
+.Tanzania_Text{
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 25px;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+.Tanzania_Text__paragraph-1{
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.Tanzania_picture{
+    display: flex;
+    justify-content: center;
+}
+.Tanzania_picture img{
+    padding-bottom: 30px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.Somalia_Text h4{
+    font-size: 35px;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.Somalia_Text-and-pic{
+     margin-bottom: 200px ;
+    background-color: rgba(26, 252, 252, 0.8);
+    border-radius: 10px;
+    
+}
+.Somalia_Text{
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 25px;
+    border-radius: 20px;
+    margin-top: 200px;
+    
+   
+}
+.Somalia_Text__paragraph-1{
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+.Somalia_picture{
+    display: flex;
+    justify-content: center;
+}
+.Somalia_picture img{
+    padding-bottom: 30px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+@media (min-width: 765px){
+    .box{
+        display: flex;
+        gap:50px;
+        text-align: start;
+        
+    }
+}
